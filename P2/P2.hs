@@ -651,9 +651,9 @@ loginMenu = do
 mainMenu :: IO ()
 mainMenu = do
     safeClearScreen
-    putStrLn "========================================"
+    putStrLn "==========================================="
     putStrLn "=== ADMINISTRADOR SEGURO DE CONTRASEÑAS ==="
-    putStrLn "========================================"
+    putStrLn "==========================================="
     putStrLn "1. Iniciar sesión"
     putStrLn "2. Crear nuevo usuario"
     putStrLn "0. Salir"

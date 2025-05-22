@@ -1,0 +1,3 @@
+id,username,hash_del_pin
+1,Kevin,0100001100100001
+2,Orlando,0100001100100001

@@ -539,7 +539,7 @@ passwordMenu user pin passwords = do
     putStrLn "6. Cambiar PIN de acceso"
     putStrLn "0. Cerrar sesión"
     putStrLn "----------------------------------------"
-    putStr "Seleccione una opción: "
+    putStrLn "Seleccione una opción: "
     choice <- getLine
     
     case choice of
@@ -658,7 +658,7 @@ mainMenu = do
     putStrLn "2. Crear nuevo usuario"
     putStrLn "0. Salir"
     putStrLn "----------------------------------------"
-    putStr "Seleccione una opción: "
+    putStrLn "Seleccione una opción: "
     choice <- getLine
     case choice of
         "1" -> loginMenu
